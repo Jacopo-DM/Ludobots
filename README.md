@@ -10,4 +10,4 @@ This repo contains my work on the `Education in Evolutionary Robotics (MOOC)` co
 
 * [Welcome to the Ludobots MOOC! (Reddit)](https://www.reddit.com/r/ludobots/wiki/index/#welcome)
 * [Installation (Reddit)](https://www.reddit.com/r/ludobots/wiki/installation/)
-* [Lectures (Youtube)](https://www.youtube.com/playlist?list=PLAuiGdPEdw0iyApypcLk_xBKjLchQM-Mg)
+* [Lectures (YouTube)](https://www.youtube.com/playlist?list=PLAuiGdPEdw0iyApypcLk_xBKjLchQM-Mg)
