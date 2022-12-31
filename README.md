@@ -1,6 +1,6 @@
 # Ludobots
 
-Education in Evolutionary Robotics (MOOC)
+Education in Evolutionary Robotics (MOOC from the University of Vermont)
 
 ## About
 
