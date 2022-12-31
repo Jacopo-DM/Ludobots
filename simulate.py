@@ -9,12 +9,30 @@ Hardware:   M1 chip
 This code is provided "As Is"
 """
 
+# Standard libraries
+import time
+
+# Third-party libraries
+import pybullet as p
+
 # Local libraries
 from utils.setup import setup
 
+# Constants
+STEPS = 1000
+TIME = 1 / 240
+
 
 def main() -> None:
-    return
+    """Main function"""
+
+    physicsClient = p.connect(p.GUI)
+
+    for __ in range(STEPS):
+        p.stepSimulation()
+        time.sleep(TIME)
+
+    p.disconnect(physicsClient)
 
 
 if __name__ == "__main__":
