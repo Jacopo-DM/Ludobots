@@ -16,6 +16,7 @@ import time
 import pybullet as p
 
 # Local libraries
+from generate import generate
 from utils.setup import setup
 
 # Constants
@@ -23,10 +24,12 @@ STEPS = 1000
 TIME = 1 / 240
 
 
-def main() -> None:
+def main(sdf_name) -> None:
     """Main function"""
 
     physicsClient = p.connect(p.GUI)
+
+    p.loadSDF(sdf_name + ".sdf")
 
     for __ in range(STEPS):
         p.stepSimulation()
@@ -37,7 +40,9 @@ def main() -> None:
 
 if __name__ == "__main__":
     setup()
-    main()
+    sdf_name = "box"
+    generate(sdf_name)
+    main(sdf_name)
 
 """ Utilities
 Create 'requirements.txt'
